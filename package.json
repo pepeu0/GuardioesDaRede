@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "GuardioesDaRede",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dafteezy/GuardioesDaRede.git"
+  },
+  "author": "Dafteezy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dafteezy/GuardioesDaRede/issues"
+  },
+  "homepage": "https://github.com/Dafteezy/GuardioesDaRede#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1"
+  }
+}
