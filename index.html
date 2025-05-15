@@ -4,35 +4,38 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Guardiões da Rede</title>
-  
-  <!-- Bootstrap CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
 
+  <!-- Estilo e Font Awesome -->
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container d-flex justify-content-between">
-      <a class="navbar-brand" href="index.html">Os Guardiões da Rede.</a>
-      <a href="quiz.html"><button class="btn btn-outline-light">Iniciar o Quiz</button></a>
-    </div>
-    
+  <header>
+    <h1><i class="fas fa-shield-alt icon"></i> Os Guardiões da Rede</h1>
+  </header>
+
+  <nav>
+    <a href="index.html"><i class="fas fa-home icon"></i>Início</a>
+    <a href="quiz.html" class="btn"><i class="fas fa-question-circle icon"></i>Iniciar o Quiz</a>
   </nav>
 
-  <div class="container text-center mt-5">
-    <h1>Bem-vindo ao quiz dos Guardiões da Rede</h1>
-    <p class="lead">Nosso objetivo é ajudar você a entender os fundamentos da segurança de rede de forma prática e divertida!</p>
-    
-    <div class="mt-4">
-      <a href="biografia.html" class="btn btn-primary m-2">Sobre os Criadores</a>
-      <a href="conteudo.html" class="btn btn-secondary m-2">Conteúdo para Estudo</a>
-    </div>
-  </div>
+  <main>
+    <section class="text-center">
+      <h2>Bem-vindo ao quiz dos Guardiões da Rede</h2>
+      <p>Nosso objetivo é ajudar você a entender os fundamentos da segurança de rede de forma prática e divertida!</p>
 
-  <!-- Scripts -->
+      <div style="margin-top: 20px;">
+        <a href="biografia.html" class="btn"><i class="fas fa-user icon"></i>Sobre os Criadores</a>
+        <a href="conteudo.html" class="btn"><i class="fas fa-book icon"></i>Conteúdo para Estudo</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Scripts Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
