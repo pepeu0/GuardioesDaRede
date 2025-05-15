@@ -19,7 +19,7 @@ function iniciarQuiz() {
   localStorage.setItem("participante", JSON.stringify({ nome, ra, curso, email }));
 
   // Pega perguntas do servidor
-  fetch("http://localhost:3000/api/perguntas")
+  fetch('/api/perguntas')
     .then(res => res.json())
     .then(perguntas => {
       perguntasSelecionadas = perguntas;
