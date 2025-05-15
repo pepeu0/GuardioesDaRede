@@ -54,11 +54,9 @@ body {
  
 }
 
-.content-profile p {
-    
-     
+main  {
+    height: 100vh;
 }
- 
 
 #arrows {
     position: absolute;
