@@ -1,0 +1,80 @@
+CREATE TABLE IF NOT EXISTS perguntas (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    pergunta TEXT,
+    opcaoA TEXT,
+    opcaoB TEXT,
+    opcaoC TEXT,
+    opcaoD TEXT,
+    respostaCorreta TEXT
+);
+
+INSERT INTO perguntas (pergunta, opcaoA, opcaoB, opcaoC, opcaoD, respostaCorreta) VALUES
+('O que é um firewall?', 
+ 'Um tipo de vírus de computador',
+ 'Um dispositivo que impede acesso não autorizado a uma rede',
+ 'Um protocolo de rede',
+ 'Um tipo de cabo de rede',
+ 'B'),
+
+('Qual dessas opções é uma boa prática de segurança de senhas?', 
+ 'Usar datas de nascimento',
+ 'Reutilizar senhas em vários sites',
+ 'Usar senhas fortes com letras, números e símbolos',
+ 'Anotar a senha em um post-it',
+ 'C'),
+
+('O que significa VPN?', 
+ 'Virtual Private Network',
+ 'Very Powerful Network',
+ 'Verified Protected Network',
+ 'Virtual Protection Node',
+ 'A'),
+
+('O que é phishing?', 
+ 'Um ataque que tenta enganar usuários para obter informações pessoais',
+ 'Um tipo de firewall',
+ 'Um protocolo de criptografia',
+ 'Uma técnica de backup',
+ 'A'),
+
+('Como podemos proteger dados em trânsito?', 
+ 'Deixando os dados públicos',
+ 'Usando criptografia',
+ 'Compartilhando senhas',
+ 'Enviando por e-mail',
+ 'B'),
+
+('O que é autenticação de dois fatores (2FA)?', 
+ 'Um tipo de ataque de rede',
+ 'Uma senha mais difícil',
+ 'Um método que exige dois tipos de verificação para login',
+ 'Uma criptografia',
+ 'C'),
+
+('Qual ferramenta detecta atividades suspeitas em redes?', 
+ 'Switch',
+ 'IDS (Intrusion Detection System)',
+ 'FTP',
+ 'DHCP',
+ 'B'),
+
+('Por que é importante manter softwares atualizados?', 
+ 'Para liberar espaço em disco',
+ 'Para corrigir falhas de segurança',
+ 'Para deixar o computador mais lento',
+ 'Para mudar a interface',
+ 'B'),
+
+('O que é engenharia social?', 
+ 'Ataques que exploram falhas técnicas',
+ 'Manipulação psicológica para obter acesso ou dados',
+ 'Criação de redes privadas',
+ 'Uso de antivírus',
+ 'B'),
+
+('Qual protocolo é seguro para navegação web?', 
+ 'HTTP',
+ 'FTP',
+ 'SSH',
+ 'HTTPS',
+ 'D');

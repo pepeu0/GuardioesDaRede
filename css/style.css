@@ -1,0 +1,223 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Paleta de Cores */
+:root {
+  --color1: #3e3e3e;
+  --color2: #2e2e2e;
+  --color3: #1f1f1f;
+  --color4: #0f0f0f;
+  --color5: #000000;
+}
+
+/* Base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--color4);
+  color: white;
+}
+
+/* Cabeçalho */
+header {
+  background-color: var(--color1);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Navegação */
+nav {
+  background-color: var(--color2);
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: var(--color3);
+  font-weight: bold;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+nav a.btn {
+  background-color: var(--color1);
+  border: 1px solid #fff;
+}
+
+/* Conteúdo principal */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: var(--color3);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+/* Seções */
+section {
+  background-color: var(--color3);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+section h2 {
+  margin-top: 0;
+  color: #fff;
+}
+
+/* Listas */
+ul {
+  padding-left: 20px;
+  list-style: none;
+}
+
+ul li {
+  background-color: var(--color2);
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Parágrafos */
+p {
+  margin: 10px 0;
+}
+
+/* Títulos */
+h2, h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+/* Botões */
+button, .btn {
+  background-color: var(--color1);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 1rem;
+}
+
+button:hover, .btn:hover {
+  background-color: var(--color2);
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--color2);
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Estilos específicos do quiz */
+#quiz {
+  background-color: var(--color3);
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+#quiz p,
+#quiz label {
+  color: white;
+  font-size: 1rem;
+}
+
+#quiz label {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: var(--color2);
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+#quiz label:hover {
+  background-color: var(--color1);
+}
+
+#quiz input[type="radio"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+  accent-color: #00b894; /* cor personalizada */
+}
+
+/* Pontuação */
+#pontuacao {
+  color: #00ff90;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+nav a,
+a.btn {
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+a.btn {
+  display: inline-block;
+  margin: 5px;
+  background-color: var(--color1);
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a.btn:hover {
+  background-color: var(--color2);
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px; /* reduz um pouco a altura */
+  border-radius: 5px;
+  background-color: var(--color3);
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s ease, background 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* espaço entre ícone e texto */
+}
